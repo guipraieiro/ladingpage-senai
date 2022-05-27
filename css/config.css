@@ -1,0 +1,36 @@
+/*color variables*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+ @font-face {
+     font-family: 'bernard MT condensed';
+     src: url('../assets/fonts/bernard-mt-condensed.ttf');
+ }
+
+:root{
+--color-pale-white:#FAE1FA;
+--color-dark:#332E30;
+--color-purple: #5B0DDE;
+--color-blue-dark:#0D074E;
+--color-blue-pale:#0D9EDE;
+--color-puple:#5B0DDE;
+--color-purple-pale:#240EE8;
+}
+
+h1,h2,h3 {
+font-family: 'bernard MT condensed';    
+}
+
+h1{
+  color:var(--color-dark) ;  
+  font-size: 61px;
+}
+
+h2{
+ color:var var(-color-pale-white)
+ font-size: 61px; 
+}
+
+p, span, a{
+font-family:'Roboto' ;    
+}
